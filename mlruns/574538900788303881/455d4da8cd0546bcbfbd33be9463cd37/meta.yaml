@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/Users/Flori/Desktop/ITBA 2024-2025/MLOps seminario intensivo/TPMLOPs/notebooks/../mlruns/574538900788303881/455d4da8cd0546bcbfbd33be9463cd37/artifacts
+end_time: 1749416582058
+entry_point_name: ''
+experiment_id: '574538900788303881'
+lifecycle_stage: active
+run_id: 455d4da8cd0546bcbfbd33be9463cd37
+run_name: GB_n100_lr0.05_d8
+run_uuid: 455d4da8cd0546bcbfbd33be9463cd37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749416562116
+status: 3
+tags: []
+user_id: Flori

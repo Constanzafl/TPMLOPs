@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Flori/Desktop/ITBA 2024-2025/MLOps seminario intensivo/TPMLOPs/mlruns/569584116121895187/bc9bc7ff37f745e0bc166821661c614a/artifacts
+end_time: 1749415296923
+entry_point_name: ''
+experiment_id: '569584116121895187'
+lifecycle_stage: active
+run_id: bc9bc7ff37f745e0bc166821661c614a
+run_name: Ridge_alpha_10.0
+run_uuid: bc9bc7ff37f745e0bc166821661c614a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749415288281
+status: 3
+tags: []
+user_id: Flori

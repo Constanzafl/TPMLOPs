@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Flori/Desktop/ITBA 2024-2025/MLOps seminario intensivo/TPMLOPs/mlruns/569584116121895187/b95d85fb8fb94d23b3be2310dd5bc537/artifacts
+end_time: 1749415271433
+entry_point_name: ''
+experiment_id: '569584116121895187'
+lifecycle_stage: active
+run_id: b95d85fb8fb94d23b3be2310dd5bc537
+run_name: Linear_Regression
+run_uuid: b95d85fb8fb94d23b3be2310dd5bc537
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1749415257466
+status: 3
+tags: []
+user_id: Flori
