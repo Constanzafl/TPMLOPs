@@ -2,6 +2,7 @@
 
 **Trabajo Práctico Final - Materia MLOps**  
 **Universidad:** ITBA  
+**Alumnos:** Daniliuk Ivan, Freda Franco, Florio Maria Constanza, Sansone Marianela
 **Repositorio:** https://github.com/Constanzafl/TPMLOPs
 
 Sistema MLOps end-to-end que integra **MLflow** para experimentación y **Evidently** para monitoreo, implementando un pipeline completo para predicción de precios de viviendas.
