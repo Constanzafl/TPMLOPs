@@ -1,0 +1,119 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head><title>Reporte de Deriva - data_drift</title>
+        <style>
+            body { font-family: Arial; margin: 40px; }
+            .metric { background: #f5f5f5; padding: 15px; margin: 10px 0; border-radius: 5px; }
+            .good { border-left: 5px solid #4CAF50; }
+            .warning { border-left: 5px solid #FF9800; }
+            .error { border-left: 5px solid #F44336; }
+            table { border-collapse: collapse; width: 100%; }
+            th, td { border: 1px solid #ddd; padding: 8px; }
+            th { background-color: #f2f2f2; }
+        </style>
+        </head>
+        <body>
+            <h1>📈 Reporte de Deriva - data_drift</h1>
+            <div class="metric good">
+                <h2>🚨 Resumen de Deriva</h2>
+                <p><strong>Columnas con deriva:</strong> 0/11</p>
+            </div>
+            <div class="metric good">
+                <h2>📊 Análisis por Columna</h2>
+                <table>
+                    <tr><th>Columna</th><th>Media Ref</th><th>Media Actual</th><th>Score</th><th>Estado</th></tr>
+        
+                    <tr>
+                        <td>MedInc</td>
+                        <td>-0.0012</td>
+                        <td>-0.0033</td>
+                        <td>0.0020</td>
+                        <td>✅ OK</td>
+                    </tr>
+            
+                    <tr>
+                        <td>HouseAge</td>
+                        <td>0.0091</td>
+                        <td>0.0097</td>
+                        <td>0.0006</td>
+                        <td>✅ OK</td>
+                    </tr>
+            
+                    <tr>
+                        <td>AveRooms</td>
+                        <td>0.0083</td>
+                        <td>0.0123</td>
+                        <td>0.0040</td>
+                        <td>✅ OK</td>
+                    </tr>
+            
+                    <tr>
+                        <td>AveBedrms</td>
+                        <td>-0.0235</td>
+                        <td>-0.0235</td>
+                        <td>0.0000</td>
+                        <td>✅ OK</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Population</td>
+                        <td>0.0138</td>
+                        <td>0.0138</td>
+                        <td>0.0000</td>
+                        <td>✅ OK</td>
+                    </tr>
+            
+                    <tr>
+                        <td>AveOccup</td>
+                        <td>0.0144</td>
+                        <td>0.0144</td>
+                        <td>0.0000</td>
+                        <td>✅ OK</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Latitude</td>
+                        <td>-0.0205</td>
+                        <td>-0.0205</td>
+                        <td>0.0000</td>
+                        <td>✅ OK</td>
+                    </tr>
+            
+                    <tr>
+                        <td>Longitude</td>
+                        <td>0.0353</td>
+                        <td>0.0353</td>
+                        <td>0.0000</td>
+                        <td>✅ OK</td>
+                    </tr>
+            
+                    <tr>
+                        <td>RoomsPerHousehold</td>
+                        <td>-0.0036</td>
+                        <td>-0.0036</td>
+                        <td>0.0000</td>
+                        <td>✅ OK</td>
+                    </tr>
+            
+                    <tr>
+                        <td>BedroomsPerRoom</td>
+                        <td>-0.0162</td>
+                        <td>-0.0162</td>
+                        <td>0.0000</td>
+                        <td>✅ OK</td>
+                    </tr>
+            
+                    <tr>
+                        <td>PopulationPerHousehold</td>
+                        <td>0.0069</td>
+                        <td>0.0069</td>
+                        <td>0.0000</td>
+                        <td>✅ OK</td>
+                    </tr>
+            
+                </table>
+            </div>
+        </body>
+        </html>
+        
