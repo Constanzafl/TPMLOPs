@@ -338,65 +338,11 @@ python run_pipeline.py
 - **Jupyter**: Notebooks interactivos
 - **Git**: Control de versiones
 
-## 🎓 Criterios de Evaluación Cubiertos
 
 ✅ **Integración y funcionamiento**: MLflow + Evidently completamente integrados  
 ✅ **Claridad técnica**: Código modular con documentación completa  
 ✅ **Buenas prácticas**: Logging, validación, manejo de errores  
 ✅ **Automatización**: Pipeline end-to-end sin intervención manual  
-✅ **Participación equitativa**: Estructura modular para trabajo en equipo  
-✅ **Originalidad**: Feature engineering custom y simulación de deriva  
 
-## 👥 Distribución del Trabajo en Equipo
 
-### **Persona 1: Data Engineering**
-- Implementación de procesamiento de datos
-- Feature engineering y validación
-- Notebooks de exploración
 
-### **Persona 2: MLflow & Experimentación**
-- Configuración de tracking de experimentos
-- Implementación de algoritmos ML
-- Comparación y selección de modelos
-
-### **Persona 3: Evidently & Monitoreo**
-- Implementación de reportes de calidad
-- Detección de deriva de datos
-- Monitoreo de performance
-
-### **Persona 4: Integración & Pipeline**
-- Integración del pipeline completo
-- Documentación y testing
-- Preparación de presentación
-
-## 🚀 Próximos Pasos (Extensiones Futuras)
-
-### **Mejoras Técnicas**
-- Integración con bases de datos reales
-- API REST para servir predicciones
-- Containerización con Docker
-- CI/CD con GitHub Actions
-
-### **MLOps Avanzado**
-- A/B testing de modelos
-- Reentrenamiento automático
-- Monitoreo en tiempo real
-- Feature store implementation
-
-### **Escalabilidad**
-- Procesamiento distribuido con Spark
-- Despliegue en Kubernetes
-- Monitoreo con Prometheus/Grafana
-- Orquestación con Apache Airflow
-
----
-
-## 📞 Soporte y Contacto
-
-**Repositorio**: https://github.com/Constanzafl/TPMLOPs  
-**Documentación**: README.md y notebooks incluidos  
-**Issues**: Usar GitHub Issues para reportar problemas  
-
----
-
-**Desarrollado con ❤️ para MLOps - ITBA 2024-2025**
