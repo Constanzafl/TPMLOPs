@@ -4,6 +4,8 @@
 * **Universidad:** ITBA  
 * **Alumnos:** Daniliuk Ivan, Freda Franco, Florio Maria Constanza, Sansone Marianela
 * **Repositorio:** https://github.com/Constanzafl/TPMLOPs
+* **Slides con presentacion:** [Presentacion](https://docs.google.com/presentation/d/1gedIPbxrhg8Wo2w77kRklzrbqvTfdKP1/edit?usp=sharing&ouid=107550161041521431022&rtpof=true&sd=true)
+* **Video:** [Video TP](https://drive.google.com/file/d/1g8QYN4x0Y3TvRcPlBQwzC8kATwciGAJA/view?usp=sharing)
 
 Sistema MLOps end-to-end que integra **MLflow** para experimentación y **Evidently** para monitoreo, implementando un pipeline completo para predicción de precios de viviendas.
 
