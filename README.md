@@ -117,12 +117,6 @@ Desarrollar un sistema MLOps robusto que no solo prediga precios de viviendas co
 - Alertas automáticas de degradación
 - Recomendaciones de reentrenamiento
 
-### Implementación Robusta
-- **Evidently nativo** cuando está disponible
-- **Fallback a reportes básicos** si hay problemas de compatibilidad
-- **Reportes HTML profesionales** con styling CSS
-- **Simulación de deriva** para demostración
-
 ## 🚀 Instalación y Uso
 
 ### Requisitos Previos
@@ -203,7 +197,7 @@ TPMLOPs/
 └── 📄 README.md                    # Documentación
 ```
 
-## 📊 Resultados Esperados
+## 📊 Resultados
 
 ### Performance de Modelos
 - **Linear Regression**: R² ≈ 0.69
@@ -249,43 +243,6 @@ TPMLOPs/
 - Compatible con diferentes versiones de librerías
 - Manejo inteligente de dependencias
 
-## 🎬 Demo para Presentación
-
-### Flujo de Demostración (20 minutos)
-
-#### 1. **Procesamiento de Datos** (3 min)
-```bash
-python run_pipeline.py --phase data
-```
-- Mostrar feature engineering aplicado
-- Explicar limpieza de outliers
-- Visualizar datos procesados
-
-#### 2. **Experimentación MLflow** (8 min)
-```bash
-python run_pipeline.py --phase training
-mlflow ui
-```
-- Mostrar experimentos en interfaz web
-- Comparar métricas entre modelos
-- Explicar selección automática del mejor modelo
-
-#### 3. **Monitoreo Evidently** (5 min)
-```bash
-python run_pipeline.py --phase monitoring
-```
-- Abrir reportes HTML generados
-- Mostrar detección de deriva
-- Explicar alertas de degradación
-
-#### 4. **Pipeline Completo** (4 min)
-```bash
-python run_pipeline.py
-```
-- Demostrar flujo end-to-end
-- Mostrar resumen de resultados
-- Destacar automatización completa
-
 ## 🏆 Ventajas Competitivas
 
 ### **Vs. Proyectos Tradicionales**
@@ -299,26 +256,6 @@ python run_pipeline.py
 - **Trazabilidad completa** de todos los experimentos
 - **Detección proactiva** de problemas
 - **Preparado para producción**
-
-## 🔬 Aspectos Técnicos Avanzados
-
-### **Feature Engineering Inteligente**
-- Creación de ratios significativos
-- Categorización basada en dominio
-- One-hot encoding automático
-- Correlación mejorada con target
-
-### **Experimentación Sistemática**
-- Grid de hiperparámetros predefinido
-- Métricas múltiples para evaluación robusta
-- Selección automática basada en R²
-- Logging completo de artifacts
-
-### **Monitoreo Proactivo**
-- Simulación realista de deriva
-- Umbrales adaptativos para alertas
-- Reportes visual y analíticamente ricos
-- Recomendaciones automáticas
 
 ## 📚 Tecnologías Utilizadas
 
@@ -338,11 +275,7 @@ python run_pipeline.py
 - **Jupyter**: Notebooks interactivos
 - **Git**: Control de versiones
 
-
 ✅ **Integración y funcionamiento**: MLflow + Evidently completamente integrados  
 ✅ **Claridad técnica**: Código modular con documentación completa  
 ✅ **Buenas prácticas**: Logging, validación, manejo de errores  
 ✅ **Automatización**: Pipeline end-to-end sin intervención manual  
-
-
-
